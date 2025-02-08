@@ -1,6 +1,6 @@
-<h1 align="center">
-  <img src="Name.html" alt="YESHWANTH VARMA" />
-</h1>
+<div align="center">
+  <img src="name-banner.svg" alt="Yeshwanth Varma" />
+</div>
 
 ## Hey! 👋
 I'm Marton, a 20 years old web developer from Hungary.
