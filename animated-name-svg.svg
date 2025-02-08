@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3828ca">
+        <animate attributeName="offset" values="-0.5;1.5" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#f8e700">
+        <animate attributeName="offset" values="0;2" dur="3s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    
+    <!-- Animation paths for snowflakes -->
+    <path id="fallPath" d="M 0,-10 V 110" />
+  </defs>
+
+  <!-- Main text with gradient -->
+  <text x="400" y="65" 
+        font-family="Inter, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+        font-size="48"
+        font-weight="900"
+        text-anchor="middle"
+        fill="url(#gradient)"
+        style="letter-spacing: -0.05em;">
+    YESHWANTH VARMA
+  </text>
+
+  <!-- Snowflakes -->
+  <g fill="white" style="filter: drop-shadow(0 0 1px #000);">
+    <!-- Snowflake 1 -->
+    <text font-family="Arial" font-size="20">
+      <animateMotion dur="10s" repeatCount="indefinite" path="M 100,-10 V 110">
+        <mpath href="#fallPath" />
+      </animateMotion>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 80,0; 0,0" dur="3s" repeatCount="indefinite" />
+      ❅
+    </text>
+    
+    <!-- Snowflake 2 -->
+    <text font-family="Arial" font-size="20">
+      <animateMotion dur="8s" repeatCount="indefinite" begin="1s" path="M 200,-10 V 110">
+        <mpath href="#fallPath" />
+      </animateMotion>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 80,0; 0,0" dur="3s" repeatCount="indefinite" begin="1s" />
+      ❅
+    </text>
+    
+    <!-- Snowflake 3 -->
+    <text font-family="Arial" font-size="20">
+      <animateMotion dur="12s" repeatCount="indefinite" begin="2s" path="M 300,-10 V 110">
+        <mpath href="#fallPath" />
+      </animateMotion>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 80,0; 0,0" dur="3s" repeatCount="indefinite" begin="2s" />
+      ❅
+    </text>
+    
+    <!-- Snowflake 4 -->
+    <text font-family="Arial" font-size="20">
+      <animateMotion dur="9s" repeatCount="indefinite" begin="0.5s" path="M 400,-10 V 110">
+        <mpath href="#fallPath" />
+      </animateMotion>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 80,0; 0,0" dur="3s" repeatCount="indefinite" begin="0.5s" />
+      ❅
+    </text>
+    
+    <!-- Snowflake 5 -->
+    <text font-family="Arial" font-size="20">
+      <animateMotion dur="11s" repeatCount="indefinite" begin="1.5s" path="M 500,-10 V 110">
+        <mpath href="#fallPath" />
+      </animateMotion>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 80,0; 0,0" dur="3s" repeatCount="indefinite" begin="1.5s" />
+      ❅
+    </text>
+    
+    <!-- Snowflake 6 -->
+    <text font-family="Arial" font-size="20">
+      <animateMotion dur="10s" repeatCount="indefinite" begin="0.8s" path="M 600,-10 V 110">
+        <mpath href="#fallPath" />
+      </animateMotion>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 80,0; 0,0" dur="3s" repeatCount="indefinite" begin="0.8s" />
+      ❅
+    </text>
+    
+    <!-- Snowflake 7 -->
+    <text font-family="Arial" font-size="20">
+      <animateMotion dur="9s" repeatCount="indefinite" begin="2.5s" path="M 700,-10 V 110">
+        <mpath href="#fallPath" />
+      </animateMotion>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; 80,0; 0,0" dur="3s" repeatCount="indefinite" begin="2.5s" />
+      ❅
+    </text>
+  </g>
+</svg>
